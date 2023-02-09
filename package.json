@@ -1,0 +1,19 @@
+{
+  "name": "node-custom-version",
+  "version": "1.0.0",
+  "description": "Simple example of using custom Node version",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "./node_modules/node/node_modules/.bin/node ./node_modules/nodemon/bin/nodemon.js ./src/index.js"
+  },
+  "dependencies": {
+    "node": "14.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ]
+}
